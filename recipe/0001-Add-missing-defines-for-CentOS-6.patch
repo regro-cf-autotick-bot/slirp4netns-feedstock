@@ -55,3 +55,15 @@ index 13514cb..dd7a4e4 100644
  static int add_mount(const char *from, const char *to)
  {
      int ret;
+diff --git a/seccompfilter.c b/seccompfilter.c
+index cfbe604..c73b34c 100644
+--- a/seccompfilter.c
++++ b/seccompfilter.c
+@@ -3,7 +3,6 @@
+ #include <stdio.h>
+ #include <errno.h>
+ #include <string.h>
+-#include <linux/seccomp.h>
+ #include <glib.h>
+ #include <seccomp.h>
+ #include "seccomparch.h"
