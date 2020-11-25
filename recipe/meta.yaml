@@ -9,7 +9,6 @@ source:
   sha256: 5c9e4dd7d99683a0c9ba8509aec865245604db83359ff1b7c99f9f3ae1569a28
   patches:
     - 0001-Add-missing-defines-for-CentOS-6.patch
-    - 0002-Do-not-use-SCMP_ACT_KILL_PROCESS.patch
 
 build:
   number: 0
